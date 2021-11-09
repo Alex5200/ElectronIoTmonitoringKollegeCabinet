@@ -14,7 +14,10 @@ function createWindow () {
   })
 
   // and load the index.html of the app.
-  mainWindow.loadFile('index.html')
+  // win.loadURL('http://localhost:3000');
+
+  mainWindow.loadURL( 'http://localhost:3000/');
+
   mainWindow.removeMenu();
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
